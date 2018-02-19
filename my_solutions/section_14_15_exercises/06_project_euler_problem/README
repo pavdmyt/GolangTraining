@@ -1,0 +1,7 @@
+Implement solution to problem #9 based on this code:
+https://github.com/pavdmyt/project-euler/blob/master/problem_9.py
+
+Need to learn about channels.
+Links on generators/iterators implementation in Go:
+http://www.golangpatterns.info/
+https://stackoverflow.com/questions/34464146/the-idiomatic-way-to-implement-generators-yield-in-golang-for-recursive-functi
