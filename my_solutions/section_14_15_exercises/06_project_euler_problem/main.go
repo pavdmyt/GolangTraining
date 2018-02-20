@@ -20,8 +20,8 @@ func IsPrime(n int) bool {
 
 	sqrt := math.Sqrt(float64(n))
 
-	for i := 5; i < int(sqrt)+1; i += 6 {
-		if n%i == 0 || n%(i+2) == 0 {
+	for i := 3; i < int(sqrt)+1; i += 2 {
+		if n%i == 0 {
 			return false
 		}
 	}
