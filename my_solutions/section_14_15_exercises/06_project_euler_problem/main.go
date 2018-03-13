@@ -13,7 +13,7 @@ import (
 	"math"
 )
 
-func IsPrime(n int) bool {
+func isPrime(n int) bool {
 	if n <= 3 {
 		return n == 2 || n == 3
 	}
@@ -34,7 +34,7 @@ func main() {
 
 	for counter < 10001 {
 		num += 2
-		if IsPrime(num) {
+		if isPrime(num) {
 			counter++
 		}
 	}
